@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    background: black;
+    cursor: pointer;
+}
+
+.left-navbar {
+    position: fixed;
+    background: black;
+    border-right: 1px solid rgb(79, 55, 55);
+    height: 100vh;
+    width: 265px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-insta {
+    display: flex;
+    margin: 10px;
+    padding: 20px 10px;
+    padding-left: 30px;
+}
+
+
+.logo-insta:hover {
+    cursor: pointer;
+}
+
+.container {
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+    padding-left: 32px;
+    height: 100vh;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    width: 185px;
+    height: 45px;
+    padding-left: 5px;
+    margin: 5px 5px;
+}
+
+.logo-text {
+    padding-left: 17px;
+}
+
+.sub-logo {
+    height: 25px;
+    width: 25px;
+}
+
+.item:hover {
+    background: rgb(41, 29, 29);
+    border-radius: 8px;
+}
+
+.item:hover svg {
+    transform: scale(1.1);
+}
+
+.raj-img {
+    height: 25px;
+    width: 25px;
+    border-radius: 50px;
+}
+
+.item:hover .raj-img {
+    transform: scale(1.1);
+}
+
+
+/* Right Section of the veiw port */
+
+.right-section {
+    margin-left: 265px;
+}
+
+.right-inner-section {
+    margin: 0px 136.500px;
+    padding: 30px 20px 0px 20px;
+}
+
+/* Profile section  */
+.top-section {
+    background-color: black;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.top-left {
+    width: 291px;
+    height: 181px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.top-left img {
+    height: 150px;
+    width: 150px;
+    border-radius: 122px;
+}
+
+
+
+.top-right {
+    height: 181px;
+    position: relative;
+    color: white;
+    width: 613.083px;
+}
+
+.profile-info {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.name {
+    font-size: 22px;
+    font-weight: 500;
+    padding-right: 20px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.follow-button {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    width: 115px;
+    height: 32px;
+    border-radius: 8px;
+    margin-right: 8px;
+    border: none;
+}
+
+.message-button {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    width: 115px;
+    height: 32px;
+    border-radius: 8px;
+    border: none;
+}
+
+.follower-icon {
+    transform: rotate(180deg);
+}
+
+.more-options {
+    margin-left: 5px;
+}
+
+.basic-info ul {
+    display: flex;
+    height: 18px;
+    width: 613.967px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.basic-info ul li {
+    list-style: none;
+    margin-right: 36px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.basic-info {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.Artist {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #ad9797;
+}
+
+.about-basic {
+    font-size: 14px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.story {
+    display: flex;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.story-img {
+    border-radius: 142px;
+    height: 77px;
+    width: 77px;
+    border: 2px solid #2c3c2c;
+    padding: 3px;
+}
+
+.deeky {
+    width: 125px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+}
+
+.day-dream {
+    width: 125px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+}
+
+.d-Remake {
+    width: 125px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+}
+
+.story-name {
+    margin-top: 15px;
+}
+
+.sub-navbar {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin-top: 30px;
+    border-top: 2px solid #120e0e;
+    position: relative;
+    display: flex;
+    height: 52px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    color: #746565;
+}
+
+.text {
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.post {
+    border-top: 2px solid white;
+    color: white;
+    width: 58.467px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.post svg {
+    color: white;
+}
+
+
+
+.rells {
+    color: #746565;
+    width: 58.467px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.tagged {
+    color: #746565;
+    width: 84.467px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .inner-post-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(10, minmax(0, 1fr));
+    width: 958px;
+    height: auto;
+    gap: 1px; 
+   } 
+  
+  .upload img {
+    width: 309px;
+    height: 309px;
+    object-fit: cover;
+  } 
+  
+  
